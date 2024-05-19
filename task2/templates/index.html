@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ввод данных</title>
+</head>
+<body>
+    <h1>Введите свои данные</h1>
+    <form action="/submit" method="post"> <!-- <form> для создания формы которая собирает данные от пользователя-->
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required> <!-- required указывают что поля должны быть заполнены -->
+        <br>
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
