@@ -89,6 +89,7 @@ async def sava_image_async_main():
 start_time = time.time()
 
 if __name__ == '__main__':
+    """Раскомментируйте функции для использовальзования"""
     input_url(urls)
 
     # for url in urls:
